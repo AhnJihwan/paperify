@@ -51,7 +51,7 @@ eval "cat \"$file\" | $SPLIT_BIN -d -b 2953 -a3 - \"$dir/$prefix\""
 cd "$dir"
 
 count=$(ls | wc -l)
-FONT=${FONT:-fixed}
+FONT=${FONT:-ubuntu}
 
 for f in *
 do
